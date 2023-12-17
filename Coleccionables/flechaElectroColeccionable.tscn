@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck6uplek0thmg"]
+
+[ext_resource type="Texture2D" uid="uid://bf8ixdfa6ii2e" path="res://Assets/MagickArrow/ElectroArrow.png" id="1_3x260"]
+[ext_resource type="Script" path="res://Coleccionables/flecha_electro_coleccionable.gd" id="1_4lyys"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_04xfv"]
+radius = 13.0384
+
+[sub_resource type="Animation" id="Animation_8qp24"]
+resource_name = "flechaElectro"
+length = 1.5
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.02, 0.02), Vector2(0.015, 0.015)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y273b"]
+_data = {
+"flechaElectro": SubResource("Animation_8qp24")
+}
+
+[node name="flechaElectroColeccionable" type="Area2D" groups=["flechaElectro"]]
+script = ExtResource("1_4lyys")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.015, 0.015)
+texture = ExtResource("1_3x260")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_04xfv")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "flechaElectro"
+libraries = {
+"": SubResource("AnimationLibrary_y273b")
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

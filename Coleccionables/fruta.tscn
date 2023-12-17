@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://d0ppybeab358l"]
+
+[ext_resource type="Script" path="res://Coleccionables/fruta.gd" id="1_fr2nw"]
+[ext_resource type="Texture2D" uid="uid://ctpljqv5t03q7" path="res://Assets/Fruits/Fruits/16x16/passionfruit.png" id="2_d1ulu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gy5x4"]
+
+[sub_resource type="Animation" id="Animation_vh5p7"]
+resource_name = "fruitsAnimation"
+length = 1.5
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(0.7, 0.7)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xblyb"]
+_data = {
+"fruitsAnimation": SubResource("Animation_vh5p7")
+}
+
+[node name="fruta" type="Area2D" groups=["frutas"]]
+collision_layer = 8
+script = ExtResource("1_fr2nw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_d1ulu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gy5x4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "fruitsAnimation"
+libraries = {
+"": SubResource("AnimationLibrary_xblyb")
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

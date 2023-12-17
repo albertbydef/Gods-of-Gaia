@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4bvtpkjcw120"]
+
+[ext_resource type="Script" path="res://Enemies/fire/Bomb.gd" id="1_f1xda"]
+[ext_resource type="Texture2D" uid="uid://cvppoc8vw67bs" path="res://Assets/Enemies/Fire/Bombardero/bomb.png" id="2_ea46i"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f20ii"]
+
+[node name="Bomb" type="Area2D"]
+scale = Vector2(0.75, 0.75)
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_f1xda")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_f20ii")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_ea46i")
+
+[node name="OrigenExplosionMarker2D" type="Marker2D" parent="."]
+position = Vector2(1.42109e-14, 1.19209e-07)
+scale = Vector2(1, 1)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

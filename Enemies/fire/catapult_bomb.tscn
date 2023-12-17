@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://hrm5fhh8c40t"]
+
+[ext_resource type="Script" path="res://Enemies/fire/catapult_bomb.gd" id="1_yvhic"]
+[ext_resource type="Texture2D" uid="uid://cvppoc8vw67bs" path="res://Assets/Enemies/Fire/Bombardero/bomb.png" id="2_b0fn2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7cvbn"]
+radius = 11.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f4lfj"]
+
+[node name="CatapultBomb" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_yvhic")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_b0fn2")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_7cvbn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_f4lfj")
+
+[node name="OrigenExplosionMarker2D" type="Marker2D" parent="."]
+position = Vector2(8.47033e-22, 7.10543e-15)
+scale = Vector2(1, 1)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

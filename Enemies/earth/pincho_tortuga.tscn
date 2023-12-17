@@ -1,0 +1,430 @@
+[gd_scene load_steps=93 format=3 uid="uid://ckra853cd6sf3"]
+
+[ext_resource type="Texture2D" uid="uid://bt7430x7w336y" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_00.png" id="1_2nrc5"]
+[ext_resource type="Script" path="res://Enemies/earth/pincho_tortuga.gd" id="1_soi5t"]
+[ext_resource type="Texture2D" uid="uid://dssapxkocqi4e" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_01.png" id="2_824bo"]
+[ext_resource type="Texture2D" uid="uid://dqi3foxr8t73s" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_02.png" id="3_ngkcj"]
+[ext_resource type="Texture2D" uid="uid://6l584u7cf7nf" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_03.png" id="4_1mkuo"]
+[ext_resource type="Texture2D" uid="uid://lu7r22u5nos8" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_04.png" id="5_ty527"]
+[ext_resource type="Texture2D" uid="uid://boh376lsklsmw" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_05.png" id="6_26yuu"]
+[ext_resource type="Texture2D" uid="uid://bltcc16edl5dx" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_06.png" id="7_2b2lv"]
+[ext_resource type="Texture2D" uid="uid://b85338xjbb6qy" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_07.png" id="8_wrwxf"]
+[ext_resource type="Texture2D" uid="uid://dyr4bl5sinlg6" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_08.png" id="9_auf2y"]
+[ext_resource type="Texture2D" uid="uid://bmgby4ecuefe2" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_09.png" id="10_8gjed"]
+[ext_resource type="Texture2D" uid="uid://bsu0kjdcthlkr" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_10.png" id="11_pye0g"]
+[ext_resource type="Texture2D" uid="uid://dvg8c7txrtsus" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_11.png" id="12_wdeaa"]
+[ext_resource type="Texture2D" uid="uid://cw4x26m215apa" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_12.png" id="13_ts5ff"]
+[ext_resource type="Texture2D" uid="uid://bf0io4nfn4l5f" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_13.png" id="14_fhufl"]
+[ext_resource type="Texture2D" uid="uid://f1llg2ll5gtk" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_14.png" id="15_sv6qr"]
+[ext_resource type="Texture2D" uid="uid://bxge26d5o8xnb" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_15.png" id="16_qp54b"]
+[ext_resource type="Texture2D" uid="uid://dkxbwnfys60ng" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_16.png" id="17_i2w31"]
+[ext_resource type="Texture2D" uid="uid://ql4mvtxqwk5d" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_17.png" id="18_od3yj"]
+[ext_resource type="Texture2D" uid="uid://ddiavu8kcos5e" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_18.png" id="19_7pcd2"]
+[ext_resource type="Texture2D" uid="uid://bthgfofyiluce" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_19.png" id="20_m2t8w"]
+[ext_resource type="Texture2D" uid="uid://b633ur7yabbb7" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_20.png" id="21_e8ddl"]
+[ext_resource type="Texture2D" uid="uid://bpno6emc48h1l" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_21.png" id="22_sujbb"]
+[ext_resource type="Texture2D" uid="uid://cd0boj7msbtys" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_22.png" id="23_2r0rv"]
+[ext_resource type="Texture2D" uid="uid://div0ndga6hq1n" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_23.png" id="24_34jtv"]
+[ext_resource type="Texture2D" uid="uid://b7d4461wesdt4" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_24.png" id="25_asbbw"]
+[ext_resource type="Texture2D" uid="uid://dsaapd6d5adc8" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_25.png" id="26_mpjuw"]
+[ext_resource type="Texture2D" uid="uid://jf0hsvh8act3" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_26.png" id="27_0ssss"]
+[ext_resource type="Texture2D" uid="uid://dwvbkk2lk2w1" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_27.png" id="28_3rasg"]
+[ext_resource type="Texture2D" uid="uid://c52hyph5y8o16" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_28.png" id="29_eolom"]
+[ext_resource type="Texture2D" uid="uid://p081f0utig8p" path="res://Assets/Enemies/Earth/Tortuga/Attack/Attack_29.png" id="30_47g17"]
+[ext_resource type="Texture2D" uid="uid://db5bbpxutotxq" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_00.png" id="31_p4f2l"]
+[ext_resource type="Texture2D" uid="uid://cbqfdmag7qyjg" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_01.png" id="32_4mokq"]
+[ext_resource type="Texture2D" uid="uid://cjf3l4iqxnku6" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_0.png" id="32_8nx8o"]
+[ext_resource type="Texture2D" uid="uid://cr3oga1rirxqe" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_02.png" id="33_3mua4"]
+[ext_resource type="Texture2D" uid="uid://xl6pm2xlcr5t" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_1.png" id="33_w4ktf"]
+[ext_resource type="Texture2D" uid="uid://e7n80h16ovhx" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_2.png" id="34_ahaq2"]
+[ext_resource type="Texture2D" uid="uid://cbedgqqxtgkj7" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_03.png" id="34_c7aes"]
+[ext_resource type="Texture2D" uid="uid://ujytve36tfcu" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_3.png" id="35_iv064"]
+[ext_resource type="Texture2D" uid="uid://buwujeodclc5d" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_04.png" id="35_uhapl"]
+[ext_resource type="Texture2D" uid="uid://dtmbeii84vqlt" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_4.png" id="36_013pe"]
+[ext_resource type="Texture2D" uid="uid://4hsadupj7ii2" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_05.png" id="36_ons27"]
+[ext_resource type="Texture2D" uid="uid://c2nx1weu2rhrg" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_5.png" id="37_jb2g5"]
+[ext_resource type="Texture2D" uid="uid://bcc3cvq8sso3d" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_06.png" id="37_p5jbc"]
+[ext_resource type="Texture2D" uid="uid://bt6ecp3ikrks3" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_6.png" id="38_uvbms"]
+[ext_resource type="Texture2D" uid="uid://drj0t76qixtc6" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_07.png" id="38_va468"]
+[ext_resource type="Texture2D" uid="uid://b7ivf1sc1ydcj" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_08.png" id="39_nvcx8"]
+[ext_resource type="Texture2D" uid="uid://bqbeulowva52l" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_7.png" id="39_v0f8j"]
+[ext_resource type="Texture2D" uid="uid://dassg453fu2q6" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_8.png" id="40_b3kl3"]
+[ext_resource type="Texture2D" uid="uid://da8brlwighfrh" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_09.png" id="40_yhfyb"]
+[ext_resource type="Texture2D" uid="uid://ck8pcne4pb147" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_9.png" id="41_r8npc"]
+[ext_resource type="Texture2D" uid="uid://c4mbegajfbvni" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_10.png" id="41_u3u78"]
+[ext_resource type="Texture2D" uid="uid://ctptce5hqi7o7" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_11.png" id="42_eopyc"]
+[ext_resource type="Texture2D" uid="uid://cb7lhdbpwck4d" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_12.png" id="43_6bpqy"]
+[ext_resource type="Texture2D" uid="uid://t00ulqeao7h3" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_13.png" id="44_bmich"]
+[ext_resource type="Texture2D" uid="uid://dycjo73feh680" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_14.png" id="45_2f4t5"]
+[ext_resource type="Texture2D" uid="uid://dopb2tr4xj7ci" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_15.png" id="46_w8yok"]
+[ext_resource type="Texture2D" uid="uid://dchjru1e6ykp8" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_16.png" id="47_gwrlp"]
+[ext_resource type="Texture2D" uid="uid://b14sgd62xrvsm" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_17.png" id="48_q55gx"]
+[ext_resource type="Texture2D" uid="uid://bexmqricpsy3w" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_18.png" id="49_w5hyd"]
+[ext_resource type="Texture2D" uid="uid://bwpsj57633u2c" path="res://Assets/Enemies/Earth/Tortuga/Idle/Idle_19.png" id="50_p44x8"]
+[ext_resource type="Texture2D" uid="uid://bqfkybmcvj2ga" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_00.png" id="51_sdsen"]
+[ext_resource type="Texture2D" uid="uid://chfeacgjcwaxu" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_01.png" id="52_he8tv"]
+[ext_resource type="Texture2D" uid="uid://dmnsv6jvfo4wr" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_02.png" id="53_5rpb0"]
+[ext_resource type="Texture2D" uid="uid://bkg240c30p73e" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_03.png" id="54_4u333"]
+[ext_resource type="Texture2D" uid="uid://ceajio43nvvkl" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_04.png" id="55_usurm"]
+[ext_resource type="Texture2D" uid="uid://c8tiu1pjxsg41" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_05.png" id="56_2s8pp"]
+[ext_resource type="Texture2D" uid="uid://bk2up66h8qnh2" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_06.png" id="57_ib6sm"]
+[ext_resource type="Texture2D" uid="uid://c4yyik6ow6lpp" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_07.png" id="58_7kvnd"]
+[ext_resource type="Texture2D" uid="uid://nnsqxxikdnlc" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_08.png" id="59_2rejp"]
+[ext_resource type="Texture2D" uid="uid://20r87767lj3g" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_09.png" id="60_jc72r"]
+[ext_resource type="Texture2D" uid="uid://tdt4oi7elap7" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_10.png" id="61_lb6if"]
+[ext_resource type="Texture2D" uid="uid://b8rw07ptttk55" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_11.png" id="62_fqtmg"]
+[ext_resource type="Texture2D" uid="uid://btievg74mbqn2" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_12.png" id="63_dx2w5"]
+[ext_resource type="Texture2D" uid="uid://chd8pytrst1ig" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_13.png" id="64_h1byc"]
+[ext_resource type="Texture2D" uid="uid://c6gua4hje1mo2" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_14.png" id="65_oew2h"]
+[ext_resource type="Texture2D" uid="uid://co1cp733urfp" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_15.png" id="66_4wdhj"]
+[ext_resource type="Texture2D" uid="uid://dx4k645w3ee60" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_16.png" id="67_wa5w6"]
+[ext_resource type="Texture2D" uid="uid://biaqqcehlmj77" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_17.png" id="68_d3fu0"]
+[ext_resource type="Texture2D" uid="uid://o5fnaj7d0hyc" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_18.png" id="69_ravtb"]
+[ext_resource type="Texture2D" uid="uid://bkopd53jfgfbq" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_19.png" id="70_ivbma"]
+[ext_resource type="Texture2D" uid="uid://bq4f3x5ptnwly" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_20.png" id="71_q2e67"]
+[ext_resource type="Texture2D" uid="uid://dcwj7p16m8ffl" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_21.png" id="72_khvs3"]
+[ext_resource type="Texture2D" uid="uid://mkfp4gw4ixlc" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_22.png" id="73_6lu10"]
+[ext_resource type="Texture2D" uid="uid://c6aw2hxhgrqlb" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_23.png" id="74_mn0b2"]
+[ext_resource type="Texture2D" uid="uid://c5p7f8rklxmh6" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_24.png" id="75_n0i2q"]
+[ext_resource type="Texture2D" uid="uid://ddcx5j41mjfwg" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_25.png" id="76_gx6yh"]
+[ext_resource type="Texture2D" uid="uid://d1177tw0y5j00" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_26.png" id="77_ahue4"]
+[ext_resource type="Texture2D" uid="uid://haucphwh61qx" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_27.png" id="78_bhag5"]
+[ext_resource type="Texture2D" uid="uid://cmk0xh621uv6t" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_28.png" id="79_8kbbf"]
+[ext_resource type="Texture2D" uid="uid://breyaf6aemmf2" path="res://Assets/Enemies/Earth/Tortuga/Walk/Walk_29.png" id="80_bkjpv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mlj0w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2nrc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_824bo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ngkcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1mkuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ty527")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_26yuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2b2lv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wrwxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_auf2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8gjed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pye0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wdeaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ts5ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_fhufl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_sv6qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_qp54b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_i2w31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_od3yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_7pcd2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_m2t8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_e8ddl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_sujbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2r0rv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_34jtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_asbbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_mpjuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_0ssss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_3rasg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_eolom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_47g17")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_8nx8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_w4ktf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ahaq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_iv064")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_013pe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_jb2g5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_uvbms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_v0f8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_b3kl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_r8npc")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_p4f2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_4mokq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_3mua4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_c7aes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_uhapl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ons27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_p5jbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_va468")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_nvcx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_yhfyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_u3u78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_eopyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_6bpqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_bmich")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_2f4t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_w8yok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_gwrlp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_q55gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_w5hyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_p44x8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("51_sdsen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_he8tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_5rpb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_4u333")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_usurm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_2s8pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_ib6sm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_7kvnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_2rejp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_jc72r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_lb6if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_fqtmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_dx2w5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_h1byc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_oew2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_4wdhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_wa5w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_d3fu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_ravtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ivbma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_q2e67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_khvs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_6lu10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_mn0b2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_n0i2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_gx6yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_ahue4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_bhag5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_8kbbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_bkjpv")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 15.0
+}]
+
+[node name="PinchoTortuga" type="CharacterBody2D" groups=["earth", "enemigos"]]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_soi5t")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_mlj0w")
+animation = &"attack"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(0.1, 0.1)
+polygon = PackedVector2Array(-110, -60, 20, -20, 130, 50, 130, 120, -110, 120)
+
+[node name="Raycast" type="Node2D" parent="."]
+
+[node name="RayCastSuelo" type="RayCast2D" parent="Raycast"]
+target_position = Vector2(0, 16)
+collision_mask = 4
+
+[node name="RayCastPared" type="RayCast2D" parent="Raycast"]
+target_position = Vector2(-17, 0)
+collision_mask = 4
+
+[node name="rayTimer" type="Timer" parent="Raycast"]
+one_shot = true
+
+[node name="RayCastDetectorPlayer" type="RayCast2D" parent="."]
+target_position = Vector2(-100, 0)
+
+[node name="RayCastAttack" type="RayCast2D" parent="."]
+target_position = Vector2(-37, 0)
+
+[node name="HurtTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="damagePlayer" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="damagePlayer"]
+polygon = PackedVector2Array(-12, -7, -12, 13, 14, 13, 14, 4, -3, -5)
+
+[connection signal="timeout" from="Raycast/rayTimer" to="." method="_on_ray_timer_timeout"]
+[connection signal="body_entered" from="damagePlayer" to="." method="_on_damage_player_body_entered"]

@@ -1,0 +1,155 @@
+[gd_scene load_steps=34 format=3 uid="uid://b0alpxfxvihyc"]
+
+[ext_resource type="Script" path="res://Disparos/flecha_hielo.gd" id="1_evgc1"]
+[ext_resource type="Texture2D" uid="uid://dinahnkwckksn" path="res://Assets/MagickArrow/2/1_0.png" id="2_te77d"]
+[ext_resource type="Texture2D" uid="uid://dk4c8fhl4bcpa" path="res://Assets/MagickArrow/2/1_1.png" id="3_c67i0"]
+[ext_resource type="Texture2D" uid="uid://11nllyocexj8" path="res://Assets/MagickArrow/2/1_2.png" id="4_fk4kl"]
+[ext_resource type="Texture2D" uid="uid://1hgc012hruss" path="res://Assets/MagickArrow/2/1_3.png" id="5_rb8yu"]
+[ext_resource type="Texture2D" uid="uid://iygo8tqq8jb" path="res://Assets/MagickArrow/2/1_4.png" id="6_enr8l"]
+[ext_resource type="Texture2D" uid="uid://be2upe5vmmuf5" path="res://Assets/MagickArrow/2/1_5.png" id="7_4lkbd"]
+[ext_resource type="Texture2D" uid="uid://mje3giwikl8e" path="res://Assets/MagickArrow/2/1_6.png" id="8_8joh0"]
+[ext_resource type="Texture2D" uid="uid://dr65dfg5sru0b" path="res://Assets/MagickArrow/2/1_7.png" id="9_sfvux"]
+[ext_resource type="Texture2D" uid="uid://bapcqwgsoydrk" path="res://Assets/MagickArrow/2/1_8.png" id="10_kd57f"]
+[ext_resource type="Texture2D" uid="uid://ciqi10ovcyor0" path="res://Assets/MagickArrow/2/1_9.png" id="11_1n0bh"]
+[ext_resource type="Texture2D" uid="uid://ckleb6y4mekjx" path="res://Assets/MagickArrow/2/1_10.png" id="12_76dvs"]
+[ext_resource type="Texture2D" uid="uid://lpbmea2t8veq" path="res://Assets/MagickArrow/2/1_11.png" id="13_vbu4f"]
+[ext_resource type="Texture2D" uid="uid://dny4qicmo2r4y" path="res://Assets/MagickArrow/2/1_12.png" id="14_kww4t"]
+[ext_resource type="Texture2D" uid="uid://c22xlekergpnh" path="res://Assets/MagickArrow/2/1_13.png" id="15_o4wk5"]
+[ext_resource type="Texture2D" uid="uid://foe5kpjjrcap" path="res://Assets/MagickArrow/2/1_14.png" id="16_w4g1q"]
+[ext_resource type="Texture2D" uid="uid://oi6j3qbtab0r" path="res://Assets/MagickArrow/2/1_15.png" id="17_y1hef"]
+[ext_resource type="Texture2D" uid="uid://dksx16vy5snel" path="res://Assets/MagickArrow/2/1_16.png" id="18_vt7h5"]
+[ext_resource type="Texture2D" uid="uid://dwetavik0nhli" path="res://Assets/MagickArrow/2/1_17.png" id="19_m3g54"]
+[ext_resource type="Texture2D" uid="uid://bna54lgwm7qn" path="res://Assets/MagickArrow/2/1_18.png" id="20_mkwm7"]
+[ext_resource type="Texture2D" uid="uid://cd4boj5fyvkcl" path="res://Assets/MagickArrow/2/1_19.png" id="21_1shdf"]
+[ext_resource type="Texture2D" uid="uid://b1bm2ditu6w22" path="res://Assets/MagickArrow/2/1_20.png" id="22_1hs46"]
+[ext_resource type="Texture2D" uid="uid://b2a8ctoc7ro62" path="res://Assets/MagickArrow/2/1_21.png" id="23_qns4f"]
+[ext_resource type="Texture2D" uid="uid://c1wujlryvyos5" path="res://Assets/MagickArrow/2/1_22.png" id="24_8tqg7"]
+[ext_resource type="Texture2D" uid="uid://2e6lc1nkwx0r" path="res://Assets/MagickArrow/2/1_23.png" id="25_cyhdr"]
+[ext_resource type="Texture2D" uid="uid://cowfni5wxh4y" path="res://Assets/MagickArrow/2/1_24.png" id="26_yp6r8"]
+[ext_resource type="Texture2D" uid="uid://b1ge0y7lfvbhc" path="res://Assets/MagickArrow/2/1_25.png" id="27_u23jf"]
+[ext_resource type="Texture2D" uid="uid://e5k25ggntn4c" path="res://Assets/MagickArrow/2/1_26.png" id="28_vh4h8"]
+[ext_resource type="Texture2D" uid="uid://js1win6ygvg2" path="res://Assets/MagickArrow/2/1_27.png" id="29_yynk7"]
+[ext_resource type="Texture2D" uid="uid://ddt32wdg1j2mt" path="res://Assets/MagickArrow/2/1_28.png" id="30_b6oxx"]
+[ext_resource type="Texture2D" uid="uid://uba7h8xpmrpt" path="res://Assets/MagickArrow/2/1_29.png" id="31_dijw8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f1e1r"]
+size = Vector2(50, 10)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pka6p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_te77d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_c67i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fk4kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rb8yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_enr8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4lkbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8joh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_sfvux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_kd57f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1n0bh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_76dvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vbu4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_kww4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_o4wk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_w4g1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_y1hef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_vt7h5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_m3g54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_mkwm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_1shdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_1hs46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_qns4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_8tqg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_cyhdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yp6r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_u23jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_vh4h8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_yynk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_b6oxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_dijw8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="flecha_hielo" type="Area2D" groups=["disparoHielo"]]
+scale = Vector2(0.5, 0.5)
+collision_layer = 16
+collision_mask = 6
+script = ExtResource("1_evgc1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 1)
+shape = SubResource("RectangleShape2D_f1e1r")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_pka6p")
+autoplay = "default"
+frame_progress = 0.249185
+
+[node name="KillTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="KillTimer" to="." method="_on_kill_timer_timeout"]

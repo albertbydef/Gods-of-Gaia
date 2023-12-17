@@ -1,0 +1,310 @@
+[gd_scene load_steps=65 format=3 uid="uid://myhdclx6scjf"]
+
+[ext_resource type="Script" path="res://Enemies/fire/Bombardero.gd" id="1_5oo3w"]
+[ext_resource type="Texture2D" uid="uid://d3hjaw2g17j2j" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_00.png" id="2_avps0"]
+[ext_resource type="Texture2D" uid="uid://c6nefk220vcd" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_01.png" id="3_4s7qq"]
+[ext_resource type="Texture2D" uid="uid://cnra7hr4payot" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_02.png" id="4_74ggc"]
+[ext_resource type="Texture2D" uid="uid://c6s00arfndbxf" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_03.png" id="5_02f5l"]
+[ext_resource type="Texture2D" uid="uid://bierx63ltctet" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_04.png" id="6_x1ja4"]
+[ext_resource type="Texture2D" uid="uid://u0s58e88mdob" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_05.png" id="7_q8q7t"]
+[ext_resource type="Texture2D" uid="uid://b6edmr6fbyyyd" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_06.png" id="8_jgpjc"]
+[ext_resource type="Texture2D" uid="uid://bi5fxnpgx3u1g" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_07.png" id="9_6enp1"]
+[ext_resource type="Texture2D" uid="uid://xo8uf38ahrra" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_08.png" id="10_h2rnv"]
+[ext_resource type="Texture2D" uid="uid://dviut8blw4fth" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_09.png" id="11_r2jjn"]
+[ext_resource type="Texture2D" uid="uid://d1quimt6htxbq" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_10.png" id="12_ju6o4"]
+[ext_resource type="Texture2D" uid="uid://dujv2gvvyqs51" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_11.png" id="13_gn06o"]
+[ext_resource type="Texture2D" uid="uid://cs7pamuxvtnww" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_12.png" id="14_48c52"]
+[ext_resource type="Texture2D" uid="uid://shthqeyotxi0" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_13.png" id="15_u81qq"]
+[ext_resource type="Texture2D" uid="uid://bw71h7qo2ehkk" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_14.png" id="16_jfr06"]
+[ext_resource type="Texture2D" uid="uid://drg65k0exkios" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_15.png" id="17_tnuj5"]
+[ext_resource type="Texture2D" uid="uid://cdffo8p0dkos8" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_16.png" id="18_c87xs"]
+[ext_resource type="Texture2D" uid="uid://dvb65rcbovsst" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_17.png" id="19_oy0el"]
+[ext_resource type="Texture2D" uid="uid://bnj26nmg2semt" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_18.png" id="20_dypj3"]
+[ext_resource type="Texture2D" uid="uid://dxxly8oiivdbw" path="res://Assets/Enemies/Fire/Bombardero/Idle/Idle_19.png" id="21_8pjq3"]
+[ext_resource type="Texture2D" uid="uid://dshu1ukakjs8p" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_00.png" id="22_okfh4"]
+[ext_resource type="Texture2D" uid="uid://djlv4rm67nc78" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_01.png" id="23_04wpf"]
+[ext_resource type="Texture2D" uid="uid://d0ndemf8tgbtv" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_02.png" id="24_88u0g"]
+[ext_resource type="Texture2D" uid="uid://cqx2bd4xa0wio" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_03.png" id="25_2gchw"]
+[ext_resource type="Texture2D" uid="uid://ivhcs1iv01mi" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_04.png" id="26_w14lp"]
+[ext_resource type="Texture2D" uid="uid://vk0qj732wts" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_05.png" id="27_fhsca"]
+[ext_resource type="Texture2D" uid="uid://b087vjhcecmsd" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_06.png" id="28_c1j6r"]
+[ext_resource type="Texture2D" uid="uid://dxtxsiky8qd85" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_07.png" id="29_8n7l5"]
+[ext_resource type="Texture2D" uid="uid://c5xd75cyfxxlx" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_08.png" id="30_vy728"]
+[ext_resource type="Texture2D" uid="uid://b1rnd6whg4blm" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_09.png" id="31_2d4qr"]
+[ext_resource type="Texture2D" uid="uid://8kaypbflodbn" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_10.png" id="32_q52v6"]
+[ext_resource type="Texture2D" uid="uid://dxnp6jaehiscc" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_11.png" id="33_j6ib7"]
+[ext_resource type="Texture2D" uid="uid://ug6cnb8e16hv" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_12.png" id="34_idfbv"]
+[ext_resource type="Texture2D" uid="uid://cnv4qei28k5j" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_13.png" id="35_flgu8"]
+[ext_resource type="Texture2D" uid="uid://walv26xcoy" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_14.png" id="36_dbrib"]
+[ext_resource type="Texture2D" uid="uid://dtk2jr8dovft4" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_15.png" id="37_38euq"]
+[ext_resource type="Texture2D" uid="uid://8rv84bblba27" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_16.png" id="38_ocjum"]
+[ext_resource type="Texture2D" uid="uid://hmivddnyr76o" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_17.png" id="39_m1j7q"]
+[ext_resource type="Texture2D" uid="uid://dvuranqcpklfm" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_18.png" id="40_0ot78"]
+[ext_resource type="Texture2D" uid="uid://5x8g5035rfr6" path="res://Assets/Enemies/Fire/Bombardero/LoseBomb/LoseBomb_19.png" id="41_gaasl"]
+[ext_resource type="Texture2D" uid="uid://doycqjcukbyob" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_00.png" id="42_tydyy"]
+[ext_resource type="Texture2D" uid="uid://d1csewsjyk5p4" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_01.png" id="43_pffqp"]
+[ext_resource type="Texture2D" uid="uid://dt245qvp8wyu1" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_02.png" id="44_ih6b6"]
+[ext_resource type="Texture2D" uid="uid://cmr2ncyj8ewe5" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_03.png" id="45_wcaho"]
+[ext_resource type="Texture2D" uid="uid://bkwmqqb1ciwa8" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_04.png" id="46_ivwom"]
+[ext_resource type="Texture2D" uid="uid://b32djdy3xflfr" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_05.png" id="47_be608"]
+[ext_resource type="Texture2D" uid="uid://34g5oj5efiib" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_06.png" id="48_mqbu3"]
+[ext_resource type="Texture2D" uid="uid://c7h0126fv874f" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_07.png" id="49_dqan7"]
+[ext_resource type="Texture2D" uid="uid://dh4vuete018l0" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_08.png" id="50_ghnak"]
+[ext_resource type="Texture2D" uid="uid://hsqve60qe3sy" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_09.png" id="51_8t7rq"]
+[ext_resource type="Texture2D" uid="uid://vq7mnqjudixx" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_10.png" id="52_qa7of"]
+[ext_resource type="Texture2D" uid="uid://dbu0alosq6d2c" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_11.png" id="53_wqv6k"]
+[ext_resource type="Texture2D" uid="uid://cejt24gpokfvb" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_12.png" id="54_ndtos"]
+[ext_resource type="Texture2D" uid="uid://cf5p2yw8d3iys" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_13.png" id="55_nvm28"]
+[ext_resource type="Texture2D" uid="uid://cupw3j73dt0ck" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_14.png" id="56_2sf7b"]
+[ext_resource type="Texture2D" uid="uid://dgvndgmejjtaf" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_15.png" id="57_k4oyu"]
+[ext_resource type="Texture2D" uid="uid://brdtj83r26i2e" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_16.png" id="58_ejn5w"]
+[ext_resource type="Texture2D" uid="uid://drxpsu051n5p4" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_17.png" id="59_g3dfk"]
+[ext_resource type="Texture2D" uid="uid://dmnkjp2o0dnd8" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_18.png" id="60_7lf8v"]
+[ext_resource type="Texture2D" uid="uid://d1a6uc27vslfj" path="res://Assets/Enemies/Fire/Bombardero/Moving/Moving_19.png" id="61_1f8ye"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5cy6b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_avps0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4s7qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_74ggc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_02f5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_x1ja4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_q8q7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jgpjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6enp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h2rnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_r2jjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ju6o4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gn06o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_48c52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_u81qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jfr06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_tnuj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_c87xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_oy0el")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_dypj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8pjq3")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_okfh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_04wpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_88u0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2gchw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_w14lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_fhsca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_c1j6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8n7l5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vy728")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_2d4qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_q52v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_j6ib7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_idfbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_flgu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_dbrib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_38euq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ocjum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_m1j7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_0ot78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_gaasl")
+}],
+"loop": false,
+"name": &"lose_bomb",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_tydyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_pffqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ih6b6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_wcaho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ivwom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_be608")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_mqbu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_dqan7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ghnak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_8t7rq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_qa7of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_wqv6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ndtos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_nvm28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_2sf7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_k4oyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ejn5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_g3dfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_7lf8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1f8ye")
+}],
+"loop": true,
+"name": &"moving",
+"speed": 15.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mhplh"]
+radius = 115.0
+height = 300.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_80gjd"]
+radius = 17.0
+height = 36.0
+
+[node name="Bombardero" type="CharacterBody2D" groups=["enemigos", "fire"]]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_5oo3w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_5cy6b")
+animation = &"lose_bomb"
+frame = 8
+frame_progress = 0.0741102
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.500001, 1)
+scale = Vector2(0.1, 0.1)
+shape = SubResource("CapsuleShape2D_mhplh")
+
+[node name="HurtTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="DamagePlayer" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamagePlayer"]
+position = Vector2(1, 1)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_80gjd")
+
+[node name="ChangeDirTimer" type="Timer" parent="."]
+wait_time = 8.0
+autostart = true
+
+[node name="BombTimer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
+
+[node name="OrigenBombMarker2D" type="Marker2D" parent="."]
+position = Vector2(1.13687e-13, 11)
+
+[connection signal="timeout" from="ChangeDirTimer" to="." method="_on_change_dir_timer_timeout"]
+[connection signal="timeout" from="BombTimer" to="." method="_on_bomb_timer_timeout"]

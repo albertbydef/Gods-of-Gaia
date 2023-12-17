@@ -1,0 +1,63 @@
+[gd_scene load_steps=12 format=3 uid="uid://1y8b77loomiu"]
+
+[ext_resource type="Script" path="res://Enemies/fire/explosion.gd" id="1_4ixr3"]
+[ext_resource type="Texture2D" uid="uid://calb1mkx02i0o" path="res://Assets/Enemies/Fire/Explosion/1.png" id="1_nfwd8"]
+[ext_resource type="Texture2D" uid="uid://cuud7q3vrq452" path="res://Assets/Enemies/Fire/Explosion/2.png" id="2_opl72"]
+[ext_resource type="Texture2D" uid="uid://ci3c0a588u3al" path="res://Assets/Enemies/Fire/Explosion/3.png" id="3_qv0of"]
+[ext_resource type="Texture2D" uid="uid://bm4jibfhbjch8" path="res://Assets/Enemies/Fire/Explosion/4.png" id="4_c8kvi"]
+[ext_resource type="Texture2D" uid="uid://dqf6gjfhtqjnt" path="res://Assets/Enemies/Fire/Explosion/5.png" id="5_cxhql"]
+[ext_resource type="Texture2D" uid="uid://cm74k1qpo4xtt" path="res://Assets/Enemies/Fire/Explosion/6.png" id="6_s2alk"]
+[ext_resource type="Texture2D" uid="uid://bp73g2md1mhfw" path="res://Assets/Enemies/Fire/Explosion/7.png" id="7_deyyx"]
+[ext_resource type="Texture2D" uid="uid://cd76h3q6o0oxn" path="res://Assets/Enemies/Fire/Explosion/8.png" id="8_fgghx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m8o3h"]
+radius = 22.0907
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sdgna"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_nfwd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_opl72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qv0of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_c8kvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cxhql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_s2alk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_deyyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fgghx")
+}],
+"loop": false,
+"name": &"explosion",
+"speed": 20.0
+}]
+
+[node name="Explosion" type="Area2D"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_4ixr3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_m8o3h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+sprite_frames = SubResource("SpriteFrames_sdgna")
+animation = &"explosion"
+frame = 7
+frame_progress = 1.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

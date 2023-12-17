@@ -1,0 +1,157 @@
+[gd_scene load_steps=34 format=3 uid="uid://blwo01uyioto2"]
+
+[ext_resource type="Script" path="res://Disparos/flecha_electro.gd" id="1_8gah7"]
+[ext_resource type="Texture2D" uid="uid://dinahnkwckksn" path="res://Assets/MagickArrow/2/1_0.png" id="1_tyuav"]
+[ext_resource type="Texture2D" uid="uid://dk4c8fhl4bcpa" path="res://Assets/MagickArrow/2/1_1.png" id="2_gr61p"]
+[ext_resource type="Texture2D" uid="uid://11nllyocexj8" path="res://Assets/MagickArrow/2/1_2.png" id="3_tqw0o"]
+[ext_resource type="Texture2D" uid="uid://1hgc012hruss" path="res://Assets/MagickArrow/2/1_3.png" id="4_1pat4"]
+[ext_resource type="Texture2D" uid="uid://iygo8tqq8jb" path="res://Assets/MagickArrow/2/1_4.png" id="5_v7p4e"]
+[ext_resource type="Texture2D" uid="uid://be2upe5vmmuf5" path="res://Assets/MagickArrow/2/1_5.png" id="6_7w56l"]
+[ext_resource type="Texture2D" uid="uid://mje3giwikl8e" path="res://Assets/MagickArrow/2/1_6.png" id="7_146ff"]
+[ext_resource type="Texture2D" uid="uid://dr65dfg5sru0b" path="res://Assets/MagickArrow/2/1_7.png" id="8_5fg6j"]
+[ext_resource type="Texture2D" uid="uid://bapcqwgsoydrk" path="res://Assets/MagickArrow/2/1_8.png" id="9_p40ce"]
+[ext_resource type="Texture2D" uid="uid://ciqi10ovcyor0" path="res://Assets/MagickArrow/2/1_9.png" id="10_2dsor"]
+[ext_resource type="Texture2D" uid="uid://ckleb6y4mekjx" path="res://Assets/MagickArrow/2/1_10.png" id="11_ha0eu"]
+[ext_resource type="Texture2D" uid="uid://lpbmea2t8veq" path="res://Assets/MagickArrow/2/1_11.png" id="12_vfwi2"]
+[ext_resource type="Texture2D" uid="uid://dny4qicmo2r4y" path="res://Assets/MagickArrow/2/1_12.png" id="13_gphh0"]
+[ext_resource type="Texture2D" uid="uid://c22xlekergpnh" path="res://Assets/MagickArrow/2/1_13.png" id="14_yrqyu"]
+[ext_resource type="Texture2D" uid="uid://foe5kpjjrcap" path="res://Assets/MagickArrow/2/1_14.png" id="15_w3i55"]
+[ext_resource type="Texture2D" uid="uid://oi6j3qbtab0r" path="res://Assets/MagickArrow/2/1_15.png" id="16_awr5n"]
+[ext_resource type="Texture2D" uid="uid://dksx16vy5snel" path="res://Assets/MagickArrow/2/1_16.png" id="17_a1m5h"]
+[ext_resource type="Texture2D" uid="uid://dwetavik0nhli" path="res://Assets/MagickArrow/2/1_17.png" id="18_4vd3y"]
+[ext_resource type="Texture2D" uid="uid://bna54lgwm7qn" path="res://Assets/MagickArrow/2/1_18.png" id="19_t6tim"]
+[ext_resource type="Texture2D" uid="uid://cd4boj5fyvkcl" path="res://Assets/MagickArrow/2/1_19.png" id="20_1kiu8"]
+[ext_resource type="Texture2D" uid="uid://b1bm2ditu6w22" path="res://Assets/MagickArrow/2/1_20.png" id="21_cdenk"]
+[ext_resource type="Texture2D" uid="uid://b2a8ctoc7ro62" path="res://Assets/MagickArrow/2/1_21.png" id="22_5grns"]
+[ext_resource type="Texture2D" uid="uid://c1wujlryvyos5" path="res://Assets/MagickArrow/2/1_22.png" id="23_ofd71"]
+[ext_resource type="Texture2D" uid="uid://2e6lc1nkwx0r" path="res://Assets/MagickArrow/2/1_23.png" id="24_iegbf"]
+[ext_resource type="Texture2D" uid="uid://cowfni5wxh4y" path="res://Assets/MagickArrow/2/1_24.png" id="25_2otht"]
+[ext_resource type="Texture2D" uid="uid://b1ge0y7lfvbhc" path="res://Assets/MagickArrow/2/1_25.png" id="26_yc7pj"]
+[ext_resource type="Texture2D" uid="uid://e5k25ggntn4c" path="res://Assets/MagickArrow/2/1_26.png" id="27_bvtr7"]
+[ext_resource type="Texture2D" uid="uid://js1win6ygvg2" path="res://Assets/MagickArrow/2/1_27.png" id="28_yjsmm"]
+[ext_resource type="Texture2D" uid="uid://ddt32wdg1j2mt" path="res://Assets/MagickArrow/2/1_28.png" id="29_05ymd"]
+[ext_resource type="Texture2D" uid="uid://uba7h8xpmrpt" path="res://Assets/MagickArrow/2/1_29.png" id="30_h4kdk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n8pic"]
+size = Vector2(51, 10)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_by1ma"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tyuav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gr61p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tqw0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1pat4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_v7p4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7w56l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_146ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5fg6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_p40ce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2dsor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ha0eu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_vfwi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gphh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_yrqyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_w3i55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_awr5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a1m5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_4vd3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_t6tim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1kiu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cdenk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5grns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ofd71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_iegbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2otht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yc7pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bvtr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_yjsmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_05ymd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_h4kdk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="flecha_electro" type="Area2D" groups=["disparoElectro"]]
+scale = Vector2(0.5, 0.5)
+collision_layer = 16
+collision_mask = 6
+script = ExtResource("1_8gah7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, 1)
+shape = SubResource("RectangleShape2D_n8pic")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+modulate = Color(100, 100, 0, 1)
+self_modulate = Color(1, 1, 0, 1)
+sprite_frames = SubResource("SpriteFrames_by1ma")
+autoplay = "default"
+frame_progress = 0.468137
+
+[node name="KillTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="KillTimer" to="." method="_on_kill_timer_timeout"]

@@ -1,0 +1,414 @@
+[gd_scene load_steps=87 format=3 uid="uid://hbowxb6c2rkw"]
+
+[ext_resource type="Script" path="res://Enemies/ice/CuernoHelado.gd" id="1_dqj76"]
+[ext_resource type="Texture2D" uid="uid://cjvefafxcl30y" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_0.png" id="2_3iyt0"]
+[ext_resource type="Texture2D" uid="uid://d78kcl5ifye2" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_1.png" id="3_8nien"]
+[ext_resource type="Texture2D" uid="uid://cc04smeqmgami" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_2.png" id="4_fcxxd"]
+[ext_resource type="Texture2D" uid="uid://dupmu54e2vfq6" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_3.png" id="5_8llgi"]
+[ext_resource type="Texture2D" uid="uid://camk5d0yhv5hb" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_4.png" id="6_3dohq"]
+[ext_resource type="Texture2D" uid="uid://cf3knr7mvasxw" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_5.png" id="7_ng1wn"]
+[ext_resource type="Texture2D" uid="uid://c3s07ipt5u2r4" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_6.png" id="8_u706b"]
+[ext_resource type="Texture2D" uid="uid://bfkt34bgtpi62" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_7.png" id="9_yxt2y"]
+[ext_resource type="Texture2D" uid="uid://bkbn2tjyc41a6" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_8.png" id="10_7ajkd"]
+[ext_resource type="Texture2D" uid="uid://l4mvtysyg4mk" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_9.png" id="11_ivn2g"]
+[ext_resource type="Texture2D" uid="uid://bvbmlpa0oujwk" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_10.png" id="12_hdvgt"]
+[ext_resource type="Texture2D" uid="uid://qb1nr2vnmrgu" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_11.png" id="13_j13jr"]
+[ext_resource type="Texture2D" uid="uid://b5sfenbu5tr1a" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_12.png" id="14_4f2ij"]
+[ext_resource type="Texture2D" uid="uid://yptxfihb3jdj" path="res://Assets/Enemies/Ice/CuernoHelado/Jump/skeleton-Jump_13.png" id="15_p6lhv"]
+[ext_resource type="Texture2D" uid="uid://b0i5af01etwd6" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_0.png" id="16_nam6l"]
+[ext_resource type="Texture2D" uid="uid://dhw1f0qb5vq1i" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_1.png" id="17_sfd4a"]
+[ext_resource type="Texture2D" uid="uid://cqd7xsy62uvgd" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_2.png" id="18_xa2jp"]
+[ext_resource type="Texture2D" uid="uid://b0lwjcu2p6fob" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_3.png" id="19_xwoer"]
+[ext_resource type="Texture2D" uid="uid://8liumsa67y2d" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_4.png" id="20_3ysj2"]
+[ext_resource type="Texture2D" uid="uid://yw1eol2dpxes" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_5.png" id="21_h0c3d"]
+[ext_resource type="Texture2D" uid="uid://dc1k4lgg703ky" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_6.png" id="22_y0kg4"]
+[ext_resource type="Texture2D" uid="uid://cvdb2qmw3gx86" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_7.png" id="23_te3tn"]
+[ext_resource type="Texture2D" uid="uid://bjn6bc5w2efen" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_8.png" id="24_odo8d"]
+[ext_resource type="Texture2D" uid="uid://05sn6nk4umwa" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_9.png" id="25_7ffvs"]
+[ext_resource type="Texture2D" uid="uid://ybcdwko122jw" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_10.png" id="26_4g7mc"]
+[ext_resource type="Texture2D" uid="uid://03nhpyi5l31" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_11.png" id="27_8dsjl"]
+[ext_resource type="Texture2D" uid="uid://brhgdlox1xubd" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_12.png" id="28_5f4vk"]
+[ext_resource type="Texture2D" uid="uid://cycey3qc1o5ql" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_13.png" id="29_xp361"]
+[ext_resource type="Texture2D" uid="uid://bmufoanamsko1" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_14.png" id="30_noppk"]
+[ext_resource type="Texture2D" uid="uid://dooi3gi0lg5lt" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_15.png" id="31_45qau"]
+[ext_resource type="Texture2D" uid="uid://27ngo2bqdd2w" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_16.png" id="32_miiq1"]
+[ext_resource type="Texture2D" uid="uid://ccfjfvu58l47o" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_17.png" id="33_jswyx"]
+[ext_resource type="Texture2D" uid="uid://bxmbpnvbwty8s" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_18.png" id="34_22nh4"]
+[ext_resource type="Texture2D" uid="uid://dfpd0gpoegl30" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_19.png" id="35_73mrk"]
+[ext_resource type="Texture2D" uid="uid://d1ls2axeq5nvq" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_20.png" id="36_evayc"]
+[ext_resource type="Texture2D" uid="uid://cjigysefdcmgb" path="res://Assets/Enemies/Ice/CuernoHelado/Attack/skeleton-Attack_21.png" id="37_j1od1"]
+[ext_resource type="Texture2D" uid="uid://cjf3l4iqxnku6" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_0.png" id="42_ykegu"]
+[ext_resource type="Texture2D" uid="uid://xl6pm2xlcr5t" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_1.png" id="43_0t2y4"]
+[ext_resource type="Texture2D" uid="uid://e7n80h16ovhx" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_2.png" id="44_sv1l8"]
+[ext_resource type="Texture2D" uid="uid://ujytve36tfcu" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_3.png" id="45_kobjw"]
+[ext_resource type="Texture2D" uid="uid://dtmbeii84vqlt" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_4.png" id="46_jlssg"]
+[ext_resource type="Texture2D" uid="uid://c2nx1weu2rhrg" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_5.png" id="47_lr0hy"]
+[ext_resource type="Texture2D" uid="uid://bt6ecp3ikrks3" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_6.png" id="48_7r24s"]
+[ext_resource type="Texture2D" uid="uid://b5yco2j4yuxqo" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_0.png" id="48_fhmqk"]
+[ext_resource type="Texture2D" uid="uid://bqbeulowva52l" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_7.png" id="49_1gl64"]
+[ext_resource type="Texture2D" uid="uid://bdk6ratpgk0hl" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_1.png" id="49_rd8lc"]
+[ext_resource type="Texture2D" uid="uid://dassg453fu2q6" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_8.png" id="50_8jlks"]
+[ext_resource type="Texture2D" uid="uid://dje77p027hjm2" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_2.png" id="50_emnoc"]
+[ext_resource type="Texture2D" uid="uid://ck8pcne4pb147" path="res://Assets/Enemies/Earth/Death Sprite/skeleton-animation_9.png" id="51_d0i5q"]
+[ext_resource type="Texture2D" uid="uid://bnn4ty5wsgaem" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_3.png" id="51_etxhg"]
+[ext_resource type="Texture2D" uid="uid://3gsyxrlnwbu0" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_4.png" id="52_j4f8c"]
+[ext_resource type="Texture2D" uid="uid://cc46vsnuywpgv" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_5.png" id="53_tyty8"]
+[ext_resource type="Texture2D" uid="uid://bjnt88ywdyusl" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_6.png" id="54_ywci4"]
+[ext_resource type="Texture2D" uid="uid://dv0q013pfi8ov" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_7.png" id="55_us5qp"]
+[ext_resource type="Texture2D" uid="uid://5xmtcrwsk1s" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_8.png" id="56_mi02s"]
+[ext_resource type="Texture2D" uid="uid://dsatgtytdcqx" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_9.png" id="57_bgici"]
+[ext_resource type="Texture2D" uid="uid://bqlb2gbj0t5qi" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_10.png" id="58_qvty1"]
+[ext_resource type="Texture2D" uid="uid://divd3cxbom01u" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_11.png" id="59_otr26"]
+[ext_resource type="Texture2D" uid="uid://be1a72ov42slp" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_12.png" id="60_0m8gc"]
+[ext_resource type="Texture2D" uid="uid://ds1ey2ew6oncw" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_13.png" id="61_usi1s"]
+[ext_resource type="Texture2D" uid="uid://qt38lt8gih0w" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_14.png" id="62_q6qm7"]
+[ext_resource type="Texture2D" uid="uid://e34wgpikofb5" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_15.png" id="63_2snek"]
+[ext_resource type="Texture2D" uid="uid://cbeayahwmrvav" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_16.png" id="64_8xcyv"]
+[ext_resource type="Texture2D" uid="uid://t28vh1wntsn0" path="res://Assets/Enemies/Ice/CuernoHelado/Idle/skeleton-Idle_17.png" id="65_h1tyk"]
+[ext_resource type="Texture2D" uid="uid://blbqqh8rj65go" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_0.png" id="66_22oyy"]
+[ext_resource type="Texture2D" uid="uid://blaf070flm633" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_1.png" id="67_unh8b"]
+[ext_resource type="Texture2D" uid="uid://crsck7vrt43te" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_2.png" id="68_8iycb"]
+[ext_resource type="Texture2D" uid="uid://dfh2w46neryfq" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_3.png" id="69_t3bx3"]
+[ext_resource type="Texture2D" uid="uid://d12ywatuo83v4" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_4.png" id="70_bx4sq"]
+[ext_resource type="Texture2D" uid="uid://bj20us7n8c657" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_5.png" id="71_4x150"]
+[ext_resource type="Texture2D" uid="uid://c8dcgtw6ceqc1" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_6.png" id="72_sdh1u"]
+[ext_resource type="Texture2D" uid="uid://wra1p3d12hh" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_7.png" id="73_jnn1g"]
+[ext_resource type="Texture2D" uid="uid://bid5r1imgvfmy" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_8.png" id="74_m3dcp"]
+[ext_resource type="Texture2D" uid="uid://7vn0e7ww64ot" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_9.png" id="75_bsvwf"]
+[ext_resource type="Texture2D" uid="uid://cgxry55pjwnq3" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_10.png" id="76_khxnu"]
+[ext_resource type="Texture2D" uid="uid://b68w5tmuppwu" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_11.png" id="77_rqii5"]
+[ext_resource type="Texture2D" uid="uid://ctv7qyaveap6y" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_12.png" id="78_ytg2m"]
+[ext_resource type="Texture2D" uid="uid://bijborht6q6gc" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_13.png" id="79_8qonl"]
+[ext_resource type="Texture2D" uid="uid://dy2luxdxu2uwn" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_14.png" id="80_sup8i"]
+[ext_resource type="Texture2D" uid="uid://vfre3qwjdgrp" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_15.png" id="81_gp4nv"]
+[ext_resource type="Texture2D" uid="uid://c66qni8vi04ko" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_16.png" id="82_i4vmm"]
+[ext_resource type="Texture2D" uid="uid://dgjoitaa8xj1c" path="res://Assets/Enemies/Ice/CuernoHelado/Walk/skeleton-Walk_17.png" id="83_oxu6b"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nvdaq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_nam6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_sfd4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xa2jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xwoer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_3ysj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_h0c3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_y0kg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_te3tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_odo8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_7ffvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_4g7mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8dsjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_5f4vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_xp361")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_noppk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_45qau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_miiq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jswyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_22nh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_73mrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_evayc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_j1od1")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_ykegu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0t2y4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_sv1l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_kobjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jlssg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_lr0hy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_7r24s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_1gl64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8jlks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_d0i5q")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48_fhmqk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_rd8lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_emnoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_etxhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_j4f8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_tyty8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ywci4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_us5qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_mi02s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_bgici")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_qvty1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_otr26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_0m8gc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_usi1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_q6qm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_2snek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_8xcyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_h1tyk")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3iyt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_8nien")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fcxxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8llgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3dohq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ng1wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_u706b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_yxt2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7ajkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ivn2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hdvgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_j13jr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_4f2ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_p6lhv")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_22oyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_unh8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_8iycb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_t3bx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_bx4sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_4x150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_sdh1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_jnn1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_m3dcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_bsvwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_khxnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_rqii5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_ytg2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_8qonl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_sup8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_gp4nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_i4vmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_oxu6b")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 15.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_b7k7h"]
+radius = 115.0
+height = 300.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a745s"]
+radius = 17.0
+height = 36.0
+
+[node name="CuernoHelado" type="CharacterBody2D" groups=["enemigos", "ice"]]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_dqj76")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_nvdaq")
+animation = &"jump"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.11758e-22, 1.19209e-07)
+scale = Vector2(0.1, 0.1)
+shape = SubResource("CapsuleShape2D_b7k7h")
+
+[node name="Raycast" type="Node2D" parent="."]
+
+[node name="RayCastSuelo" type="RayCast2D" parent="Raycast"]
+target_position = Vector2(0, 20)
+collision_mask = 4
+
+[node name="RayCastPared" type="RayCast2D" parent="Raycast"]
+target_position = Vector2(-13, 10)
+collision_mask = 4
+
+[node name="RayTimer" type="Timer" parent="Raycast"]
+one_shot = true
+
+[node name="HurtTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="RayCastDetectorPlayer" type="RayCast2D" parent="."]
+target_position = Vector2(-103, 0)
+
+[node name="RayCastAttack" type="RayCast2D" parent="."]
+target_position = Vector2(-47, 4)
+
+[node name="DamagePlayer" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamagePlayer"]
+position = Vector2(1, 1)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_a745s")
+
+[connection signal="timeout" from="Raycast/RayTimer" to="." method="_on_ray_timer_timeout"]
+[connection signal="body_entered" from="DamagePlayer" to="." method="_on_damage_player_body_entered"]

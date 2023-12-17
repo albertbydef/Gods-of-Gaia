@@ -1,0 +1,114 @@
+[gd_scene load_steps=13 format=3 uid="uid://dg3ceknkt38mr"]
+
+[ext_resource type="Script" path="res://Pantallas/final_level.gd" id="1_8akhv"]
+[ext_resource type="FontFile" uid="uid://cppv0pgxwifhi" path="res://Assets/font/NicoFontPack-v1.0/Base Font Files/NicoClean/NicoClean-Monospaced.ttf" id="2_vb8uj"]
+[ext_resource type="LabelSettings" uid="uid://d3belbju11xxk" path="res://Pantallas/notaA.tres" id="3_grax2"]
+[ext_resource type="FontFile" uid="uid://c5jwajq66w05l" path="res://Assets/font/SpaceRunner/Spacerunner-Purple.otf" id="4_usye3"]
+[ext_resource type="FontFile" uid="uid://bawpvpwr28jsr" path="res://Assets/font/SpaceRunner/Spacerunner-Green.otf" id="5_0slmr"]
+[ext_resource type="FontFile" uid="uid://duyyycksty78y" path="res://Assets/font/SpaceRunner/Spacerunner-Orange.otf" id="6_buexv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wppb7"]
+font = ExtResource("2_vb8uj")
+
+[sub_resource type="LabelSettings" id="LabelSettings_4fk6c"]
+font = ExtResource("2_vb8uj")
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_c4inv"]
+font = ExtResource("2_vb8uj")
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_jd22t"]
+font = ExtResource("4_usye3")
+font_size = 22
+
+[sub_resource type="LabelSettings" id="LabelSettings_4eis1"]
+font = ExtResource("5_0slmr")
+font_size = 22
+
+[sub_resource type="LabelSettings" id="LabelSettings_3jyqb"]
+font = ExtResource("6_buexv")
+font_size = 22
+
+[node name="FinalLevel" type="CanvasLayer"]
+process_mode = 2
+script = ExtResource("1_8akhv")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 136.0
+offset_top = 71.0
+offset_right = 292.0
+offset_bottom = 159.0
+
+[node name="LabelMessage" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Final Nivel 1"
+label_settings = SubResource("LabelSettings_wppb7")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="LabelScoretitle" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Score:"
+label_settings = SubResource("LabelSettings_4fk6c")
+
+[node name="LabelScore" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "0"
+label_settings = ExtResource("3_grax2")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="LabelNoteTitle" type="Label" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+text = "Nota:"
+label_settings = SubResource("LabelSettings_c4inv")
+
+[node name="LabelNoteA" type="Label" parent="VBoxContainer/HBoxContainer2"]
+visible = false
+layout_mode = 2
+text = "A"
+label_settings = SubResource("LabelSettings_jd22t")
+
+[node name="LabelRateB" type="Label" parent="VBoxContainer/HBoxContainer2"]
+visible = false
+layout_mode = 2
+text = "B"
+label_settings = SubResource("LabelSettings_4eis1")
+
+[node name="LabelRateC" type="Label" parent="VBoxContainer/HBoxContainer2"]
+visible = false
+layout_mode = 2
+text = "C"
+label_settings = SubResource("LabelSettings_3jyqb")
+
+[node name="ButtonNextLevel" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("2_vb8uj")
+theme_override_font_sizes/font_size = 10
+text = "Siguiente nivel"
+
+[node name="ButtonRetry" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("2_vb8uj")
+theme_override_font_sizes/font_size = 10
+text = "Volver a intentar"
+
+[node name="ButtonQuit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("2_vb8uj")
+theme_override_font_sizes/font_size = 10
+text = "Salir"
+
+[connection signal="pressed" from="VBoxContainer/ButtonNextLevel" to="." method="_on_button_next_level_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonRetry" to="." method="_on_button_retry_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonQuit" to="." method="_on_button_quit_pressed"]

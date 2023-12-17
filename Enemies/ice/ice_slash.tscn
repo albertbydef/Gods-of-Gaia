@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cr7cf818evga6"]
+
+[ext_resource type="Script" path="res://Enemies/ice/Area2D.gd" id="1_rk3l2"]
+[ext_resource type="Texture2D" uid="uid://hlg0xvrg2dxm" path="res://Assets/Enemies/Ice/OjoBlanco/Attack/slash/7.png" id="2_cuep4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xlmih"]
+size = Vector2(14.5, 24)
+
+[node name="IceSlash" type="Area2D"]
+script = ExtResource("1_rk3l2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.25, 0)
+shape = SubResource("RectangleShape2D_xlmih")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, 5)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_cuep4")
+
+[node name="KillTimer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="KillTimer" to="." method="_on_kill_timer_timeout"]
